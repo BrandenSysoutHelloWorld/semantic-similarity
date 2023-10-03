@@ -1,0 +1,11 @@
+"'Run the example file with the simpler language model ‘en_core_web_sm’ and write a note on what you notice is different from the model 'en_core_web_md'"
+
+    ANSWER:
+        When comparing strings of text both _sm and _md models seem to base results on entity relationships and due to the face that the _md model is trained on
+        a larger dataset than the _sm the _md model similarities score is will be higher. With the example.py I noticed when comparing complaints and recipes the _md
+        model finds more similarities than the _sm. I believe this is because of the reason I outlined above, the _md model has more data to compare entities such as verbs, 
+        nouns, etc...
+
+        An appropriate approach would be to use Named Entity Relationship when comparing long string of unrelated categories of data such as, complaints and recipes.
+
+END-OF-FILE | - Branden van Staden
